@@ -58,7 +58,7 @@ class _InstallWizard extends ConsumerWidget {
     final hasRoute = ref.read(installerModelProvider).hasRoute;
 
     return WizardBuilder(
-      initialRoute: InstallationStep.loading.route,
+      initalRoute: InstallationStep.loading.route,
       userData: WizardData(totalSteps: totalSteps),
       errorRoute: InstallationStep.error.route,
       routes: {
