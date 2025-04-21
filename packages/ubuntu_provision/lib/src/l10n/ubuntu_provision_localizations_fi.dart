@@ -11,7 +11,7 @@ class UbuntuProvisionLocalizationsFi extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'Esteettömyys ja $DISTRO';
+    return 'Esteettömyys ja FemboyOS';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsFi extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'Tervetuloa, tämä on $DISTRO';
+    return 'Tervetuloa, tämä on FemboyOS';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsFi extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return '$DISTRO on suunniteltu integroitavaksi Active Directoryyn ylläpidon helpottamiseksi.';
+    return 'FemboyOS on suunniteltu integroitavaksi Active Directoryyn ylläpidon helpottamiseksi.';
   }
 
   @override

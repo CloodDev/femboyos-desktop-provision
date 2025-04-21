@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsGa extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Fáilte go dtí $distro';
+    return 'Fáilte go dtí FemboyOS';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsGa extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return 'Cabhraigh le $distro a fheabhsú';
+    return 'Cabhraigh le FemboyOS a fheabhsú';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return 'Cabhraigh linn $distro a fheabhsú trí shonraí do chórais a roinnt linn. Áiríonn sé seo rudaí cosúil le do mhúnla meaisín, bogearraí suiteáilte agus an suíomh a roghnaigh tú do do chrios ama.';
+    return 'Cabhraigh linn FemboyOS a fheabhsú trí shonraí do chórais a roinnt linn. Áiríonn sé seo rudaí cosúil le do mhúnla meaisín, bogearraí suiteáilte agus an suíomh a roghnaigh tú do do chrios ama.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Sea, roinn sonraí córais leis an bhfoireann $distro';
+    return 'Sea, roinn sonraí córais leis an bhfoireann FemboyOS';
   }
 
   @override

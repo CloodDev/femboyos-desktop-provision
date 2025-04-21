@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsCa extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Us donem la benvinguda a $distro';
+    return 'Us donem la benvinguda a FemboyOS';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsCa extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return 'Ajudeu perquè l’$distro sigui millor';
+    return 'Ajudeu perquè l’FemboyOS sigui millor';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return 'Compartiu dades anònimament amb l’$distro perquè puguem millorar la vostra experiència.';
+    return 'Compartiu dades anònimament amb l’FemboyOS perquè puguem millorar la vostra experiència.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Sí, vull compartir dades del sistema amb l’equip de l’$distro';
+    return 'Sí, vull compartir dades del sistema amb l’equip de l’FemboyOS';
   }
 
   @override

@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsFi extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Tervetuloa, tämä on $distro';
+    return 'Tervetuloa, tämä on FemboyOS';
   }
 
   @override
@@ -55,7 +55,7 @@ class UbuntuInitLocalizationsFi extends UbuntuInitLocalizations {
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Kyllä, jaa järjestelmän tietoja $distro-tiimille';
+    return 'Kyllä, jaa järjestelmän tietoja FemboyOS-tiimille';
   }
 
   @override

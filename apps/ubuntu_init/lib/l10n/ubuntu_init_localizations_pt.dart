@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsPt extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Bem-vindo ao $distro';
+    return 'Bem-vindo ao FemboyOS';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsPt extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return 'Ajude a melhorar o $distro';
+    return 'Ajude a melhorar o FemboyOS';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return 'Ajude-nos a melhorar o $distro partilhando connosco os dados do seu sistema. Isto inclui coisas como o modelo da sua máquina, o software instalado e a localização que escolheu para o seu fuso horário.';
+    return 'Ajude-nos a melhorar o FemboyOS partilhando connosco os dados do seu sistema. Isto inclui coisas como o modelo da sua máquina, o software instalado e a localização que escolheu para o seu fuso horário.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Sim, partilhe os dados do sistema com a equipa do $distro';
+    return 'Sim, partilhe os dados do sistema com a equipa do FemboyOS';
   }
 
   @override
@@ -153,7 +153,7 @@ class UbuntuInitLocalizationsPtBr extends UbuntuInitLocalizationsPt {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Boas-vindas ao $distro';
+    return 'Boas-vindas ao FemboyOS';
   }
 
   @override
@@ -187,17 +187,17 @@ class UbuntuInitLocalizationsPtBr extends UbuntuInitLocalizationsPt {
 
   @override
   String telemetryHeader(Object distro) {
-    return 'Ajude a melhorar o $distro';
+    return 'Ajude a melhorar o FemboyOS';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return 'Ajude-nos a melhorar o $distro compartilhando seus dados do sistema conosco. Isso inclui itens como o modelo da máquina, o software instalado e o local escolhido para o fuso horário.';
+    return 'Ajude-nos a melhorar o FemboyOS compartilhando seus dados do sistema conosco. Isso inclui itens como o modelo da máquina, o software instalado e o local escolhido para o fuso horário.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Sim, compartilhe dados do sistema com a equipe do $distro';
+    return 'Sim, compartilhe dados do sistema com a equipe do FemboyOS';
   }
 
   @override

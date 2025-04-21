@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsKo extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return '$distro에 오신 것을 환영합니다';
+    return 'FemboyOS에 오신 것을 환영합니다';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsKo extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return '$distro 개선에 기여하기';
+    return 'FemboyOS 개선에 기여하기';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return '$distro를 개선하는 데 도움이 되도록 귀하의 시스템 데이터를 저희와 공유해 주세요. 여기에는 귀하의 장치 모델, 설치된 소프트웨어, 시간대와 같은 정보가 포함됩니다.';
+    return 'FemboyOS를 개선하는 데 도움이 되도록 귀하의 시스템 데이터를 저희와 공유해 주세요. 여기에는 귀하의 장치 모델, 설치된 소프트웨어, 시간대와 같은 정보가 포함됩니다.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return '네, $distro 팀에 시스템 데이터를 제공합니다';
+    return '네, FemboyOS 팀에 시스템 데이터를 제공합니다';
   }
 
   @override

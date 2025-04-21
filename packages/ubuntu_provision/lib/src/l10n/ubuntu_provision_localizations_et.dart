@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsEt extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'Hõlpsus, juurdepääsetavus ja $DISTRO';
+    return 'Hõlpsus, juurdepääsetavus ja FemboyOS';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'Enne paigaldamist säti $DISTRO vastavaks oma eelistustele. Neid saad alati hiljem muuta süsteemi seadistustest.';
+    return 'Enne paigaldamist säti FemboyOS vastavaks oma eelistustele. Neid saad alati hiljem muuta süsteemi seadistustest.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsEt extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'Tere tulemast, see on $DISTRO';
+    return 'Tere tulemast, see on FemboyOS';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsEt extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return 'Lihtsama haldamise nimel on $DISTRO loodud sujuvalt liidestuma Active Directory teenusega.';
+    return 'Lihtsama haldamise nimel on FemboyOS loodud sujuvalt liidestuma Active Directory teenusega.';
   }
 
   @override

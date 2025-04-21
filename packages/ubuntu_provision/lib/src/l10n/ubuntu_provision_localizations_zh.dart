@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsZh extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return '$DISTRO 中的可访问性';
+    return 'FemboyOS 中的可访问性';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return '在您安装之前，按您的需要自定义 $DISTRO。您之后可以在“系统设置”中更改它们。';
+    return '在您安装之前，按您的需要自定义 FemboyOS。您之后可以在“系统设置”中更改它们。';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsZh extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return '欢迎来到 $DISTRO';
+    return '欢迎来到 FemboyOS';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsZh extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return '$DISTRO 被设计为与 Active Directory 无缝集成，使管理更轻松。';
+    return 'FemboyOS 被设计为与 Active Directory 无缝集成，使管理更轻松。';
   }
 
   @override
@@ -353,12 +353,12 @@ class UbuntuProvisionLocalizationsZhTw extends UbuntuProvisionLocalizationsZh {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return '$DISTRO 中的無障礙功能';
+    return 'FemboyOS 中的無障礙功能';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return '在設定之前，請依照您的需求自訂 $DISTRO。您也可以安裝後在「系統設定」中變更這些設定。';
+    return '在設定之前，請依照您的需求自訂 FemboyOS。您也可以安裝後在「系統設定」中變更這些設定。';
   }
 
   @override
@@ -473,7 +473,7 @@ class UbuntuProvisionLocalizationsZhTw extends UbuntuProvisionLocalizationsZh {
 
   @override
   String localePageTitle(String DISTRO) {
-    return '歡迎使用 $DISTRO';
+    return '歡迎使用 FemboyOS';
   }
 
   @override
@@ -565,7 +565,7 @@ class UbuntuProvisionLocalizationsZhTw extends UbuntuProvisionLocalizationsZh {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return '為管理方便，$DISTRO 被設計成可以無縫整合至 Active Directory。';
+    return '為管理方便，FemboyOS 被設計成可以無縫整合至 Active Directory。';
   }
 
   @override

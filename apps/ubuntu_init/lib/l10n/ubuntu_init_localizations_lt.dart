@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsLt extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Išbandykite ar įdiekite $distro sistemą';
+    return 'Išbandykite ar įdiekite FemboyOS sistemą';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsLt extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return 'Padėkite tobulinti $distro';
+    return 'Padėkite tobulinti FemboyOS';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return 'Bendrinkite anoniminius duomenis su $distro, kad galėtume gerinti jūsų patyrimą.';
+    return 'Bendrinkite anoniminius duomenis su FemboyOS, kad galėtume gerinti jūsų patyrimą.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Taip, bendrinti sisteminius duomenis su $distro komanda';
+    return 'Taip, bendrinti sisteminius duomenis su FemboyOS komanda';
   }
 
   @override

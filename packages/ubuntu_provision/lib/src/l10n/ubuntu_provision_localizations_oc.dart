@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsOc extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'L’accessibilitat dins $DISTRO';
+    return 'L’accessibilitat dins FemboyOS';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'Personalizatz $DISTRO coma avètz mestièr abans de lo metre en plaça. Podètz cambiar aquò mai tard als paramètres sistèma.';
+    return 'Personalizatz FemboyOS coma avètz mestièr abans de lo metre en plaça. Podètz cambiar aquò mai tard als paramètres sistèma.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsOc extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'La benvenguda a $DISTRO';
+    return 'La benvenguda a FemboyOS';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsOc extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return '$DISTRO es concebut per s’integrar sens de manièra transparenta a Active Directory per una administracion mai facila.';
+    return 'FemboyOS es concebut per s’integrar sens de manièra transparenta a Active Directory per una administracion mai facila.';
   }
 
   @override

@@ -11,7 +11,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String windowTitle(String RELEASE) {
-    return 'Suiteáil $RELEASE';
+    return 'Suiteáil FemboyOS';
   }
 
   @override
@@ -105,12 +105,12 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String loadingPageTitle(String DISTRO) {
-    return 'Fáilte go $DISTRO';
+    return 'Fáilte go FemboyOS';
   }
 
   @override
   String loadingHeader(String DISTRO) {
-    return 'Ag ullmhú $DISTRO…';
+    return 'Ag ullmhú FemboyOS…';
   }
 
   @override
@@ -118,12 +118,12 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOrInstallTitle(String DISTRO) {
-    return 'Bain triail as nó suiteáil $DISTRO';
+    return 'Bain triail as nó suiteáil FemboyOS';
   }
 
   @override
   String tryOrInstallHeader(String DISTRO) {
-    return 'Cad ba mhaith leat a dhéanamh le $DISTRO?';
+    return 'Cad ba mhaith leat a dhéanamh le FemboyOS?';
   }
 
   @override
@@ -134,22 +134,22 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOption(String RELEASE) {
-    return 'Bain triail as $RELEASE';
+    return 'Bain triail as FemboyOS';
   }
 
   @override
   String tryDescription(String RELEASE) {
-    return 'Is féidir leat triail a bhaint as $RELEASE gan aon athruithe a dhéanamh ar do ríomhaire.';
+    return 'Is féidir leat triail a bhaint as FemboyOS gan aon athruithe a dhéanamh ar do ríomhaire.';
   }
 
   @override
   String installOption(String RELEASE) {
-    return 'Suiteáil $RELEASE';
+    return 'Suiteáil FemboyOS';
   }
 
   @override
   String installDescription(String RELEASE) {
-    return 'Suiteáil $RELEASE in éineacht (nó in ionad) do chóras oibriúcháin reatha. Níor cheart go dtógfadh sé seo rófhada.';
+    return 'Suiteáil FemboyOS in éineacht (nó in ionad) do chóras oibriúcháin reatha. Níor cheart go dtógfadh sé seo rófhada.';
   }
 
   @override
@@ -224,7 +224,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String codecsAndDriversPageBody(String DISTRO) {
-    return '$DISTRO longa gan aon bhogearraí dílseánaigh de réir réamhshocraithe. D\'fhéadfadh suiteáil bogearraí breise feidhmíocht do ríomhaire a fheabhsú.';
+    return 'FemboyOS longa gan aon bhogearraí dílseánaigh de réir réamhshocraithe. D\'fhéadfadh suiteáil bogearraí breise feidhmíocht do ríomhaire a fheabhsú.';
   }
 
   @override
@@ -343,7 +343,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeErase(String DISTRO) {
-    return 'Léirscrios diosca agus suiteáil $DISTRO';
+    return 'Léirscrios diosca agus suiteáil FemboyOS';
   }
 
   @override
@@ -405,7 +405,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeTPMInfo(String DISTRO, String url) {
-    return '<a href=\"$url\">Léigh faoi chriptiú TPM</a> sula roghnaíonn tú an rogha seo. Seans nach n-oibreoidh sé seo le do chrua-earraí nó le heisiúintí $DISTRO amach anseo.';
+    return '<a href=\"$url\">Léigh faoi chriptiú TPM</a> sula roghnaíonn tú an rogha seo. Seans nach n-oibreoidh sé seo le do chrua-earraí nó le heisiúintí FemboyOS amach anseo.';
   }
 
   @override
@@ -466,7 +466,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String selectGuidedStoragePageTitle(String DISTRO) {
-    return 'Léirscrios diosca agus suiteáil $DISTRO';
+    return 'Léirscrios diosca agus suiteáil FemboyOS';
   }
 
   @override
@@ -486,7 +486,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String guidedStoragePageHeader(String DISTRO) {
-    return 'Roghnaigh cá háit le $DISTRO a shuiteáil';
+    return 'Roghnaigh cá háit le FemboyOS a shuiteáil';
   }
 
   @override
@@ -778,12 +778,12 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String restartIntoWindowsDescription(String DISTRO) {
-    return 'An bhfuil tú cinnte go bhfuil fonn ort do ríomhaire a atosú? Beidh ort an tsuiteáil $DISTRO a atosú níos déanaí chun suiteáil $DISTRO a chríochnú.';
+    return 'An bhfuil tú cinnte go bhfuil fonn ort do ríomhaire a atosú? Beidh ort an tsuiteáil FemboyOS a atosú níos déanaí chun suiteáil FemboyOS a chríochnú.';
   }
 
   @override
   String installationSlidesTitle(String RELEASE) {
-    return 'Fáilte go $RELEASE';
+    return 'Fáilte go FemboyOS';
   }
 
   @override
@@ -797,7 +797,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesWelcomeHeader(String DISTRO) {
-    return 'Déanann an leagan is déanaí de $DISTRO ríomhaireacht níos éasca ná riamh.';
+    return 'Déanann an leagan is déanaí de FemboyOS ríomhaireacht níos éasca ná riamh.';
   }
 
   @override
@@ -810,7 +810,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSoftwareBody(String DISTRO) {
-    return 'Suiteáil, bainistigh agus nuashonraigh do chuid feidhmchlár go léir i mBogearraí Ubuntu, lena n-áirítear na mílte feidhmchlár ón Snap Store agus ón gcartlann $DISTRO araon.';
+    return 'Suiteáil, bainistigh agus nuashonraigh do chuid feidhmchlár go léir i mBogearraí Ubuntu, lena n-áirítear na mílte feidhmchlár ón Snap Store agus ón gcartlann FemboyOS araon.';
   }
 
   @override
@@ -818,7 +818,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesDevelopmentBody(String DISTRO) {
-    return 'Is é $DISTRO an stáisiún oibre idéalach d\'fhorbairt app nó gréasáin, eolaíocht sonraí agus AI / ML chomh maith le devops agus riarachán. Cuimsíonn gach eisiúint $DISTRO na huirlisí is déanaí agus tacaíonn sé le gach IDEs mór.';
+    return 'Is é FemboyOS an stáisiún oibre idéalach d\'fhorbairt app nó gréasáin, eolaíocht sonraí agus AI / ML chomh maith le devops agus riarachán. Cuimsíonn gach eisiúint FemboyOS na huirlisí is déanaí agus tacaíonn sé le gach IDEs mór.';
   }
 
   @override
@@ -826,7 +826,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesCreativityBody(String DISTRO) {
-    return 'Más beochantóir, dearthóir, cruthaitheoir físe nó forbróir cluiche tú tá sé éasca do shreabhadh oibre a thabhairt chuig $DISTRO le tacaíocht do bhogearraí agus feidhmchláir caighdeánacha foinse oscailte agus tionscail.';
+    return 'Más beochantóir, dearthóir, cruthaitheoir físe nó forbróir cluiche tú tá sé éasca do shreabhadh oibre a thabhairt chuig FemboyOS le tacaíocht do bhogearraí agus feidhmchláir caighdeánacha foinse oscailte agus tionscail.';
   }
 
   @override
@@ -834,7 +834,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesGamingBody(String DISTRO) {
-    return 'Tacaíonn $DISTRO leis na tiománaithe NVIDIA agus Mesa is déanaí chun feidhmíocht agus comhoiriúnacht a fheabhsú. Imríonn na mílte teideal Windows go hiontach ar $DISTRO trí fheidhmchláir cosúil le Gaile gan aon chumraíocht bhreise.';
+    return 'Tacaíonn FemboyOS leis na tiománaithe NVIDIA agus Mesa is déanaí chun feidhmíocht agus comhoiriúnacht a fheabhsú. Imríonn na mílte teideal Windows go hiontach ar FemboyOS trí fheidhmchláir cosúil le Gaile gan aon chumraíocht bhreise.';
   }
 
   @override
@@ -842,12 +842,12 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSecurityBody(String DISTRO) {
-    return 'Soláthraíonn $DISTRO na huirlisí go léir a theastaíonn uait chun fanacht príobháideach agus slán ar líne. Le tacaíocht balla dóiteáin agus VPN tógtha agus a lán feidhmchlár atá dírithe ar phríobháideachas chun a chinntiú go bhfuil smacht iomlán agat ar do chuid sonraí.';
+    return 'Soláthraíonn FemboyOS na huirlisí go léir a theastaíonn uait chun fanacht príobháideach agus slán ar líne. Le tacaíocht balla dóiteáin agus VPN tógtha agus a lán feidhmchlár atá dírithe ar phríobháideachas chun a chinntiú go bhfuil smacht iomlán agat ar do chuid sonraí.';
   }
 
   @override
   String installationSlidesSecurityLts(String DISTRO) {
-    return 'Tagann gach eisiúint LTS $DISTRO le cúig bliana de phaisteáil slándála san áireamh, ag síneadh go deich mbliana le síntiús Ubuntu Pro.';
+    return 'Tagann gach eisiúint LTS FemboyOS le cúig bliana de phaisteáil slándála san áireamh, ag síneadh go deich mbliana le síntiús Ubuntu Pro.';
   }
 
   @override
@@ -855,7 +855,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesProductivityBody(String DISTRO) {
-    return '$DISTRO Áirítear ar an deasc LibreOffice, sraith feidhmchlár foinse oscailte comhoiriúnach Microsoft Office do dhoiciméid, scarbhileoga agus cur i láthair. Tá uirlisí comhoibrithe coitianta ar fáil freisin.';
+    return 'FemboyOS Áirítear ar an deasc LibreOffice, sraith feidhmchlár foinse oscailte comhoiriúnach Microsoft Office do dhoiciméid, scarbhileoga agus cur i láthair. Tá uirlisí comhoibrithe coitianta ar fáil freisin.';
   }
 
   @override
@@ -863,7 +863,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesAccessibilityBody(String DISTRO) {
-    return 'I gcroílár na fealsúnachta $DISTRO tá an creideamh go bhfuil ríomhaireacht do gach duine. Le huirlisí inrochtaineachta chun cinn agus roghanna chun teanga, dathanna agus méid téacs a athrú, déanann $DISTRO ríomhaireacht éasca - cibé duine agus cibé áit a bhfuil tú.';
+    return 'I gcroílár na fealsúnachta FemboyOS tá an creideamh go bhfuil ríomhaireacht do gach duine. Le huirlisí inrochtaineachta chun cinn agus roghanna chun teanga, dathanna agus méid téacs a athrú, déanann FemboyOS ríomhaireacht éasca - cibé duine agus cibé áit a bhfuil tú.';
   }
 
   @override
@@ -877,7 +877,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSupportHeader(String DISTRO) {
-    return 'Tá an doiciméadú oifigiúil $DISTRO ar fáil ar líne agus tríd an deilbhín Cabhair sa duga.';
+    return 'Tá an doiciméadú oifigiúil FemboyOS ar fáil ar líne agus tríd an deilbhín Cabhair sa duga.';
   }
 
   @override
@@ -912,12 +912,12 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String notEnoughDiskSpaceUbuntu(String DISTRO) {
-    return 'Níl go leor spás diosca le suiteáil $DISTRO';
+    return 'Níl go leor spás diosca le suiteáil FemboyOS';
   }
 
   @override
   String notEnoughDiskSpaceBody(String DISTRO) {
-    return 'Níl go leor spáis diosca ag an diosca roghnaithe chun $DISTRO a shuiteáil. Scoir den suiteálaí chun spás a chur ar fáil nó roghnaigh diosca eile.';
+    return 'Níl go leor spáis diosca ag an diosca roghnaithe chun FemboyOS a shuiteáil. Scoir den suiteálaí chun spás a chur ar fáil nó roghnaigh diosca eile.';
   }
 
   @override
@@ -1078,7 +1078,7 @@ class UbuntuBootstrapLocalizationsGa extends UbuntuBootstrapLocalizations {
 
   @override
   String recoveryKeyInfoBody(String distro) {
-    return 'Faigh eochair athshlánaithe chomh luath agus a logálann tú isteach i $distro den chéad uair agus stóráil áit éigin sábháilte í.';
+    return 'Faigh eochair athshlánaithe chomh luath agus a logálann tú isteach i FemboyOS den chéad uair agus stóráil áit éigin sábháilte í.';
   }
 
   @override

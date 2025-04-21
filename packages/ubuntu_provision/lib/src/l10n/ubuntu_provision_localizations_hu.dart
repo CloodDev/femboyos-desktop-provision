@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsHu extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'Akadálymentesítés a(z) $DISTRO disztribúcióban';
+    return 'Akadálymentesítés a(z) FemboyOS disztribúcióban';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'Szabja személyre a(z) $DISTRO disztribúciót az igényei szerint, mielőtt beállítja. Ezeket később megváltoztathatja a rendszerbeállításokban.';
+    return 'Szabja személyre a(z) FemboyOS disztribúciót az igényei szerint, mielőtt beállítja. Ezeket később megváltoztathatja a rendszerbeállításokban.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsHu extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'Üdvözli a(z) $DISTRO!';
+    return 'Üdvözli a(z) FemboyOS!';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsHu extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return 'A(z) $DISTRO arra lett tervezve, hogy tökéletesen integrálódjon az Active Directory-val az egyszerűbb adminisztráció érdekében.';
+    return 'A(z) FemboyOS arra lett tervezve, hogy tökéletesen integrálódjon az Active Directory-val az egyszerűbb adminisztráció érdekében.';
   }
 
   @override

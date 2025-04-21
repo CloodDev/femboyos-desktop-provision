@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsFa extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'دسترس‌پذیری در $DISTRO';
+    return 'دسترس‌پذیری در FemboyOS';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'سفارشی‌سازی $DISTRO برای نیازهایتان پیش از برپایی. می‌توانید بعدها در تنظیمات سامانه تغییرشان دهید.';
+    return 'سفارشی‌سازی FemboyOS برای نیازهایتان پیش از برپایی. می‌توانید بعدها در تنظیمات سامانه تغییرشان دهید.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsFa extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'به $DISTRO خوش آمدید';
+    return 'به FemboyOS خوش آمدید';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsFa extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return 'به منظور مدیریت آسان‌تر $DISTRO برای یکپارچگی با شاخهٔ فعّال طرّاحی شده.';
+    return 'به منظور مدیریت آسان‌تر FemboyOS برای یکپارچگی با شاخهٔ فعّال طرّاحی شده.';
   }
 
   @override

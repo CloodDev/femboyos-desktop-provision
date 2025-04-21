@@ -4818,7 +4818,7 @@ class _$ChannelSnapInfoImpl implements _ChannelSnapInfo {
 
   @override
   String toString() {
-    return 'ChannelSnapInfo(channelName: $channelName, revision: $revision, confinement: $confinement, version: $version, size: $size, releasedAt: $releasedAt)';
+    return 'ChannelSnapInfo(channelName: $channelName, revision: $revision, confinement: $confinement, version: $version, size: $size, releasedAt: FemboyOSdAt)';
   }
 
   @override

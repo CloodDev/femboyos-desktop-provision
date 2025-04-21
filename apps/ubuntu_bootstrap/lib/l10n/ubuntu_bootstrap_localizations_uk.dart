@@ -11,7 +11,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String windowTitle(String RELEASE) {
-    return 'Встановити $RELEASE';
+    return 'Встановити FemboyOS';
   }
 
   @override
@@ -73,7 +73,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String autoinstallHeader(String DISTRO) {
-    return 'Як ви хочете встановити $DISTRO?';
+    return 'Як ви хочете встановити FemboyOS?';
   }
 
   @override
@@ -105,12 +105,12 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String loadingPageTitle(String DISTRO) {
-    return 'Ласкаво просимо в $DISTRO';
+    return 'Ласкаво просимо в FemboyOS';
   }
 
   @override
   String loadingHeader(String DISTRO) {
-    return 'Підготовка $DISTRO…';
+    return 'Підготовка FemboyOS…';
   }
 
   @override
@@ -118,12 +118,12 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOrInstallTitle(String DISTRO) {
-    return 'Спробувати або встановити $DISTRO';
+    return 'Спробувати або встановити FemboyOS';
   }
 
   @override
   String tryOrInstallHeader(String DISTRO) {
-    return 'Що ви хочете зробити з $DISTRO?';
+    return 'Що ви хочете зробити з FemboyOS?';
   }
 
   @override
@@ -134,22 +134,22 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOption(String RELEASE) {
-    return 'Спробувати $RELEASE';
+    return 'Спробувати FemboyOS';
   }
 
   @override
   String tryDescription(String RELEASE) {
-    return 'Ви можете спробувати $RELEASE, не роблячи ніяких змін на вашому комп\'ютері.';
+    return 'Ви можете спробувати FemboyOS, не роблячи ніяких змін на вашому комп\'ютері.';
   }
 
   @override
   String installOption(String RELEASE) {
-    return 'Встановити $RELEASE';
+    return 'Встановити FemboyOS';
   }
 
   @override
   String installDescription(String RELEASE) {
-    return 'Встановити $RELEASE поряд (або замість) вашої поточної операційної системи. Це не повинно зайняти занадто багато часу.';
+    return 'Встановити FemboyOS поряд (або замість) вашої поточної операційної системи. Це не повинно зайняти занадто багато часу.';
   }
 
   @override
@@ -224,7 +224,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String codecsAndDriversPageBody(String DISTRO) {
-    return '$DISTRO усталено постачається без власницького програмного забезпечення. Встановлення додаткового програмного забезпечення може підвищити швидкодію вашого комп\'ютера.';
+    return 'FemboyOS усталено постачається без власницького програмного забезпечення. Встановлення додаткового програмного забезпечення може підвищити швидкодію вашого комп\'ютера.';
   }
 
   @override
@@ -322,7 +322,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeHeader(String DISTRO) {
-    return 'Як ви бажаєте встановити $DISTRO?';
+    return 'Як ви бажаєте встановити FemboyOS?';
   }
 
   @override
@@ -343,7 +343,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeErase(String DISTRO) {
-    return 'Стерти диск і встановити $DISTRO';
+    return 'Стерти диск і встановити FemboyOS';
   }
 
   @override
@@ -405,7 +405,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeTPMInfo(String DISTRO, String url) {
-    return '<a href=\"$url\">Прочитайте про шифрування TPM</a>, перш ніж вибрати цей параметр. Це може не працювати на вашому обладнанні або у майбутніх випусках $DISTRO.';
+    return '<a href=\"$url\">Прочитайте про шифрування TPM</a>, перш ніж вибрати цей параметр. Це може не працювати на вашому обладнанні або у майбутніх випусках FemboyOS.';
   }
 
   @override
@@ -466,7 +466,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String selectGuidedStoragePageTitle(String DISTRO) {
-    return 'Стерти диск і встановити $DISTRO';
+    return 'Стерти диск і встановити FemboyOS';
   }
 
   @override
@@ -486,7 +486,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String guidedStoragePageHeader(String DISTRO) {
-    return 'Виберіть, куди встановити $DISTRO';
+    return 'Виберіть, куди встановити FemboyOS';
   }
 
   @override
@@ -778,12 +778,12 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String restartIntoWindowsDescription(String DISTRO) {
-    return 'Ви впевнені, що хочете перезапустити комп\'ютер? Вам потрібно буде перезапустити встановлення $DISTRO пізніше, щоб завершити встановлення $DISTRO.';
+    return 'Ви впевнені, що хочете перезапустити комп\'ютер? Вам потрібно буде перезапустити встановлення FemboyOS пізніше, щоб завершити встановлення FemboyOS.';
   }
 
   @override
   String installationSlidesTitle(String RELEASE) {
-    return 'Ласкаво просимо до $RELEASE';
+    return 'Ласкаво просимо до FemboyOS';
   }
 
   @override
@@ -797,12 +797,12 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesWelcomeHeader(String DISTRO) {
-    return 'Найновіша версія $DISTRO робить обчислення простішими, ніж будь-коли.';
+    return 'Найновіша версія FemboyOS робить обчислення простішими, ніж будь-коли.';
   }
 
   @override
   String installationSlidesWelcomeBody(String RELEASE) {
-    return 'Незалежно від того, чи ви розробник, творець, геймер або адміністратор, у $RELEASE ви знайдете нові інструменти для поліпшення продуктивності та зручності роботи.';
+    return 'Незалежно від того, чи ви розробник, творець, геймер або адміністратор, у FemboyOS ви знайдете нові інструменти для поліпшення продуктивності та зручності роботи.';
   }
 
   @override
@@ -810,7 +810,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSoftwareBody(String DISTRO) {
-    return 'Встановлюйте, оновлюйте усі свої застосунки та керуйте ними в Ubuntu Software, включно з тисячами застосунків зі Snap Store та архіву $DISTRO.';
+    return 'Встановлюйте, оновлюйте усі свої застосунки та керуйте ними в Ubuntu Software, включно з тисячами застосунків зі Snap Store та архіву FemboyOS.';
   }
 
   @override
@@ -818,7 +818,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesDevelopmentBody(String DISTRO) {
-    return '$DISTRO — ідеальна робоча станція для розробки застосунків та веб, науки про дані та AI/ML, а також для devops та адміністрування. Кожен випуск $DISTRO містить найновіші набори інструментів та підтримує усі основні IDE.';
+    return 'FemboyOS — ідеальна робоча станція для розробки застосунків та веб, науки про дані та AI/ML, а також для devops та адміністрування. Кожен випуск FemboyOS містить найновіші набори інструментів та підтримує усі основні IDE.';
   }
 
   @override
@@ -826,7 +826,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesCreativityBody(String DISTRO) {
-    return 'Якщо ви аніматор, дизайнер, відеоредактор або розробник ігор, ви можете з легкістю перенести свої робочі процеси в $DISTRO з підтримкою програмного забезпечення з відкритим кодом та галузевих стандартів.';
+    return 'Якщо ви аніматор, дизайнер, відеоредактор або розробник ігор, ви можете з легкістю перенести свої робочі процеси в FemboyOS з підтримкою програмного забезпечення з відкритим кодом та галузевих стандартів.';
   }
 
   @override
@@ -834,7 +834,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesGamingBody(String DISTRO) {
-    return '$DISTRO підтримує найновіші драйвери NVIDIA та Mesa для поліпшення швидкодії та сумісності. Тисячі ігор для Windows чудово запускаються на $DISTRO через такі застосунки як Steam без додаткових налаштувань.';
+    return 'FemboyOS підтримує найновіші драйвери NVIDIA та Mesa для поліпшення швидкодії та сумісності. Тисячі ігор для Windows чудово запускаються на FemboyOS через такі застосунки як Steam без додаткових налаштувань.';
   }
 
   @override
@@ -842,12 +842,12 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSecurityBody(String DISTRO) {
-    return '$DISTRO надає всі інструменти, необхідні для збереження приватності й безпеки в інтернеті. Вбудований брандмауер і підтримка VPN, а також безліч застосунків, орієнтованих на приватність, гарантують повний контроль над вашими даними.';
+    return 'FemboyOS надає всі інструменти, необхідні для збереження приватності й безпеки в інтернеті. Вбудований брандмауер і підтримка VPN, а також безліч застосунків, орієнтованих на приватність, гарантують повний контроль над вашими даними.';
   }
 
   @override
   String installationSlidesSecurityLts(String DISTRO) {
-    return 'Усі випуски $DISTRO LTS постачаються матимуть п\'ять років виправлень безпеки, які можна продовжити до десяти років за допомогою передплати Ubuntu Pro.';
+    return 'Усі випуски FemboyOS LTS постачаються матимуть п\'ять років виправлень безпеки, які можна продовжити до десяти років за допомогою передплати Ubuntu Pro.';
   }
 
   @override
@@ -855,7 +855,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesProductivityBody(String DISTRO) {
-    return '$DISTRO Desktop містить LibreOffice — набір застосунків з відкритим кодом для роботи з документами, електронними таблицями та презентаціями, сумісними з Microsoft Office. Також доступні популярні інструменти для спільної роботи.';
+    return 'FemboyOS Desktop містить LibreOffice — набір застосунків з відкритим кодом для роботи з документами, електронними таблицями та презентаціями, сумісними з Microsoft Office. Також доступні популярні інструменти для спільної роботи.';
   }
 
   @override
@@ -863,7 +863,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesAccessibilityBody(String DISTRO) {
-    return 'В основі філософії $DISTRO лежить віра в те, що комп\'ютеризація призначена для всіх. Завдяки вдосконаленим інструментам доступності та опціям зміни мови, кольорів і розміру тексту, $DISTRO полегшує роботу з комп\'ютером — ким би ви не були та де б не перебували.';
+    return 'В основі філософії FemboyOS лежить віра в те, що комп\'ютеризація призначена для всіх. Завдяки вдосконаленим інструментам доступності та опціям зміни мови, кольорів і розміру тексту, FemboyOS полегшує роботу з комп\'ютером — ким би ви не були та де б не перебували.';
   }
 
   @override
@@ -877,7 +877,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSupportHeader(String DISTRO) {
-    return 'Офіційна документація $DISTRO доступна як онлайн, так і за допомогою піктограми Довідка у доку.';
+    return 'Офіційна документація FemboyOS доступна як онлайн, так і за допомогою піктограми Довідка у доку.';
   }
 
   @override
@@ -912,12 +912,12 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String notEnoughDiskSpaceUbuntu(String DISTRO) {
-    return 'Недостатньо простору на диску, щоб установити $DISTRO';
+    return 'Недостатньо простору на диску, щоб установити FemboyOS';
   }
 
   @override
   String notEnoughDiskSpaceBody(String DISTRO) {
-    return 'На вибраному диску недостатньо місця для встановлення $DISTRO. Завершіть роботу програми встановлення, щоб звільнити місце, або виберіть інший диск.';
+    return 'На вибраному диску недостатньо місця для встановлення FemboyOS. Завершіть роботу програми встановлення, щоб звільнити місце, або виберіть інший диск.';
   }
 
   @override
@@ -1078,7 +1078,7 @@ class UbuntuBootstrapLocalizationsUk extends UbuntuBootstrapLocalizations {
 
   @override
   String recoveryKeyInfoBody(String distro) {
-    return 'Отримайте ключ відновлення одразу після першого входу до $distro і зберігайте його у безпечному місці.';
+    return 'Отримайте ключ відновлення одразу після першого входу до FemboyOS і зберігайте його у безпечному місці.';
   }
 
   @override

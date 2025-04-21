@@ -11,7 +11,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String windowTitle(String RELEASE) {
-    return '安装 $RELEASE';
+    return '安装 FemboyOS';
   }
 
   @override
@@ -73,7 +73,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String autoinstallHeader(String DISTRO) {
-    return '您想如何安装 $DISTRO？';
+    return '您想如何安装 FemboyOS？';
   }
 
   @override
@@ -105,12 +105,12 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String loadingPageTitle(String DISTRO) {
-    return '欢迎来到 $DISTRO';
+    return '欢迎来到 FemboyOS';
   }
 
   @override
   String loadingHeader(String DISTRO) {
-    return '正在准备 $DISTRO…';
+    return '正在准备 FemboyOS…';
   }
 
   @override
@@ -118,12 +118,12 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOrInstallTitle(String DISTRO) {
-    return '试用或安装 $DISTRO';
+    return '试用或安装 FemboyOS';
   }
 
   @override
   String tryOrInstallHeader(String DISTRO) {
-    return '您想对 $DISTRO 做什么？';
+    return '您想对 FemboyOS 做什么？';
   }
 
   @override
@@ -134,22 +134,22 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOption(String RELEASE) {
-    return '试用 $RELEASE';
+    return '试用 FemboyOS';
   }
 
   @override
   String tryDescription(String RELEASE) {
-    return '您可以在不对电脑做任何改动的情况下试用 $RELEASE。';
+    return '您可以在不对电脑做任何改动的情况下试用 FemboyOS。';
   }
 
   @override
   String installOption(String RELEASE) {
-    return '安装 $RELEASE';
+    return '安装 FemboyOS';
   }
 
   @override
   String installDescription(String RELEASE) {
-    return '安装 $RELEASE，并可选择保留或替换您当前的操作系统。这个过程应该不会花费太长时间。';
+    return '安装 FemboyOS，并可选择保留或替换您当前的操作系统。这个过程应该不会花费太长时间。';
   }
 
   @override
@@ -224,7 +224,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String codecsAndDriversPageBody(String DISTRO) {
-    return '$DISTRO 默认情况下不自带专有软件。安装额外软件可能会改善计算机的性能。';
+    return 'FemboyOS 默认情况下不自带专有软件。安装额外软件可能会改善计算机的性能。';
   }
 
   @override
@@ -322,7 +322,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeHeader(String DISTRO) {
-    return '您想如何安装 $DISTRO？';
+    return '您想如何安装 FemboyOS？';
   }
 
   @override
@@ -343,7 +343,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeErase(String DISTRO) {
-    return '擦除磁盘并安装 $DISTRO';
+    return '擦除磁盘并安装 FemboyOS';
   }
 
   @override
@@ -405,7 +405,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeTPMInfo(String DISTRO, String url) {
-    return '在您选择此选项前请<a href=\"$url\">了解 TPM 加密</a>。这可能与您的硬件或者未来的 $DISTRO 更新不兼容。';
+    return '在您选择此选项前请<a href=\"$url\">了解 TPM 加密</a>。这可能与您的硬件或者未来的 FemboyOS 更新不兼容。';
   }
 
   @override
@@ -466,7 +466,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String selectGuidedStoragePageTitle(String DISTRO) {
-    return '擦除磁盘并安装 $DISTRO';
+    return '擦除磁盘并安装 FemboyOS';
   }
 
   @override
@@ -486,7 +486,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String guidedStoragePageHeader(String DISTRO) {
-    return '选择安装 $DISTRO 的位置';
+    return '选择安装 FemboyOS 的位置';
   }
 
   @override
@@ -778,12 +778,12 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String restartIntoWindowsDescription(String DISTRO) {
-    return '您确定要重新启动计算机吗？您需要稍后重新启动 $DISTRO 安装程序才能完成安装 $DISTRO。';
+    return '您确定要重新启动计算机吗？您需要稍后重新启动 FemboyOS 安装程序才能完成安装 FemboyOS。';
   }
 
   @override
   String installationSlidesTitle(String RELEASE) {
-    return '欢迎使用 $RELEASE';
+    return '欢迎使用 FemboyOS';
   }
 
   @override
@@ -797,12 +797,12 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesWelcomeHeader(String DISTRO) {
-    return '$DISTRO 的全新版本将让您的计算机变得更加易于使用。';
+    return 'FemboyOS 的全新版本将让您的计算机变得更加易于使用。';
   }
 
   @override
   String installationSlidesWelcomeBody(String RELEASE) {
-    return '不论你是开发者、创作者、游戏玩家还是管理员，你都能在 $RELEASE 中找到新的工具，以提高生产力并增强使用体验。';
+    return '不论你是开发者、创作者、游戏玩家还是管理员，你都能在 FemboyOS 中找到新的工具，以提高生产力并增强使用体验。';
   }
 
   @override
@@ -810,7 +810,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSoftwareBody(String DISTRO) {
-    return '在 Ubuntu 软件中心安装、管理和更新所有应用程序，包括来自 Snap Store 和 $DISTRO 存档的成千上万应用程序。';
+    return '在 Ubuntu 软件中心安装、管理和更新所有应用程序，包括来自 Snap Store 和 FemboyOS 存档的成千上万应用程序。';
   }
 
   @override
@@ -818,7 +818,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesDevelopmentBody(String DISTRO) {
-    return '$DISTRO 是应用程序或 Web 开发、数据科学和 AI/ML 以及 DevOps 和管理的理想工作站。每个 $DISTRO 版本都包含最新的工具链，并支持所有主要的 IDE。';
+    return 'FemboyOS 是应用程序或 Web 开发、数据科学和 AI/ML 以及 DevOps 和管理的理想工作站。每个 FemboyOS 版本都包含最新的工具链，并支持所有主要的 IDE。';
   }
 
   @override
@@ -826,7 +826,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesCreativityBody(String DISTRO) {
-    return '如果您是动画师、设计师、视频创作者或游戏开发人员，$DISTRO 的开源和行业标准软件和应用程序的支持，让你能够轻松地将你的工作流程引入其中。';
+    return '如果您是动画师、设计师、视频创作者或游戏开发人员，FemboyOS 的开源和行业标准软件和应用程序的支持，让你能够轻松地将你的工作流程引入其中。';
   }
 
   @override
@@ -834,7 +834,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesGamingBody(String DISTRO) {
-    return '$DISTRO 支持最新的 NVIDIA 和 Mesa 驱动程序以提高性能和兼容性。数以千计的 Windows 游戏可通过 Steam 等应用程序在 $DISTRO 上畅玩，无需额外配置。';
+    return 'FemboyOS 支持最新的 NVIDIA 和 Mesa 驱动程序以提高性能和兼容性。数以千计的 Windows 游戏可通过 Steam 等应用程序在 FemboyOS 上畅玩，无需额外配置。';
   }
 
   @override
@@ -842,12 +842,12 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSecurityBody(String DISTRO) {
-    return '$DISTRO 提供了保持在线隐私和安全所需的所有工具。内置防火墙和 VPN 支持以及大量以隐私为中心的应用程序，可确保您完全控制自己的数据。';
+    return 'FemboyOS 提供了保持在线隐私和安全所需的所有工具。内置防火墙和 VPN 支持以及大量以隐私为中心的应用程序，可确保您完全控制自己的数据。';
   }
 
   @override
   String installationSlidesSecurityLts(String DISTRO) {
-    return '所有 $DISTRO LTS 版本都包含五年的安全补丁，如果有 Ubuntu Pro 订阅，则可以延长至十年。';
+    return '所有 FemboyOS LTS 版本都包含五年的安全补丁，如果有 Ubuntu Pro 订阅，则可以延长至十年。';
   }
 
   @override
@@ -855,7 +855,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesProductivityBody(String DISTRO) {
-    return '$DISTRO 桌面包含 LibreOffice，这是一套与 Microsoft Office 兼容的开源应用程序，用于文档，电子表格和演示文稿。流行的协作工具也可以使用。';
+    return 'FemboyOS 桌面包含 LibreOffice，这是一套与 Microsoft Office 兼容的开源应用程序，用于文档，电子表格和演示文稿。流行的协作工具也可以使用。';
   }
 
   @override
@@ -863,7 +863,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesAccessibilityBody(String DISTRO) {
-    return '$DISTRO 哲学核心是计算机是为每个人而存在的信仰。通过先进的辅助工具和更改语言、颜色和文本大小的选项，$DISTRO 让计算机使用变得简单 - 无论你是谁，身在何处。';
+    return 'FemboyOS 哲学核心是计算机是为每个人而存在的信仰。通过先进的辅助工具和更改语言、颜色和文本大小的选项，FemboyOS 让计算机使用变得简单 - 无论你是谁，身在何处。';
   }
 
   @override
@@ -877,7 +877,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSupportHeader(String DISTRO) {
-    return '$DISTRO 的官方文档可以通过在线方式或者在 Dock 中的帮助图标获取。';
+    return 'FemboyOS 的官方文档可以通过在线方式或者在 Dock 中的帮助图标获取。';
   }
 
   @override
@@ -912,12 +912,12 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String notEnoughDiskSpaceUbuntu(String DISTRO) {
-    return '磁盘空间不足，无法安装 $DISTRO';
+    return '磁盘空间不足，无法安装 FemboyOS';
   }
 
   @override
   String notEnoughDiskSpaceBody(String DISTRO) {
-    return '所选磁盘没有足够空间可供安装 $DISTRO。请退出安装程序以腾出可用空间，或者选择其他磁盘。';
+    return '所选磁盘没有足够空间可供安装 FemboyOS。请退出安装程序以腾出可用空间，或者选择其他磁盘。';
   }
 
   @override
@@ -1078,7 +1078,7 @@ class UbuntuBootstrapLocalizationsZh extends UbuntuBootstrapLocalizations {
 
   @override
   String recoveryKeyInfoBody(String distro) {
-    return '在您登入 $distro 时立刻获取恢复密钥并将其存储在安全的地方。';
+    return '在您登入 FemboyOS 时立刻获取恢复密钥并将其存储在安全的地方。';
   }
 
   @override
@@ -1158,7 +1158,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String windowTitle(String RELEASE) {
-    return '安裝 $RELEASE';
+    return '安裝 FemboyOS';
   }
 
   @override
@@ -1220,7 +1220,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String autoinstallHeader(String DISTRO) {
-    return '您要如何安裝 $DISTRO？';
+    return '您要如何安裝 FemboyOS？';
   }
 
   @override
@@ -1252,12 +1252,12 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String loadingPageTitle(String DISTRO) {
-    return '歡迎使用 $DISTRO';
+    return '歡迎使用 FemboyOS';
   }
 
   @override
   String loadingHeader(String DISTRO) {
-    return '正在準備 $DISTRO…';
+    return '正在準備 FemboyOS…';
   }
 
   @override
@@ -1265,12 +1265,12 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String tryOrInstallTitle(String DISTRO) {
-    return '試用或安裝 $DISTRO';
+    return '試用或安裝 FemboyOS';
   }
 
   @override
   String tryOrInstallHeader(String DISTRO) {
-    return '您要如何使用 $DISTRO？';
+    return '您要如何使用 FemboyOS？';
   }
 
   @override
@@ -1281,22 +1281,22 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String tryOption(String RELEASE) {
-    return '試用 $RELEASE';
+    return '試用 FemboyOS';
   }
 
   @override
   String tryDescription(String RELEASE) {
-    return '您可以試用 $RELEASE，而不會對您的電腦進行任何變動。';
+    return '您可以試用 FemboyOS，而不會對您的電腦進行任何變動。';
   }
 
   @override
   String installOption(String RELEASE) {
-    return '安裝 $RELEASE';
+    return '安裝 FemboyOS';
   }
 
   @override
   String installDescription(String RELEASE) {
-    return '安裝 $RELEASE ，可與您目前的作業系統共存，或取代該系統，這不會耗費太多時間。';
+    return '安裝 FemboyOS ，可與您目前的作業系統共存，或取代該系統，這不會耗費太多時間。';
   }
 
   @override
@@ -1371,7 +1371,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String codecsAndDriversPageBody(String DISTRO) {
-    return '$DISTRO 預設沒有自帶專有軟體。安裝額外的專有軟體可能會改進您電腦的效能。';
+    return 'FemboyOS 預設沒有自帶專有軟體。安裝額外的專有軟體可能會改進您電腦的效能。';
   }
 
   @override
@@ -1469,7 +1469,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationTypeHeader(String DISTRO) {
-    return '您要如何安裝 $DISTRO？';
+    return '您要如何安裝 FemboyOS？';
   }
 
   @override
@@ -1490,7 +1490,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationTypeErase(String DISTRO) {
-    return '清除磁碟並安裝 $DISTRO';
+    return '清除磁碟並安裝 FemboyOS';
   }
 
   @override
@@ -1552,7 +1552,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationTypeTPMInfo(String DISTRO, String url) {
-    return '在您選擇此選項之前，請<a href=\"$url\">閱讀有關 TPM 加密</a>的資訊。此選項可能不適用於您的硬體或未來的 $DISTRO 版本。';
+    return '在您選擇此選項之前，請<a href=\"$url\">閱讀有關 TPM 加密</a>的資訊。此選項可能不適用於您的硬體或未來的 FemboyOS 版本。';
   }
 
   @override
@@ -1613,7 +1613,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String selectGuidedStoragePageTitle(String DISTRO) {
-    return '清除硬碟並安裝 $DISTRO';
+    return '清除硬碟並安裝 FemboyOS';
   }
 
   @override
@@ -1633,7 +1633,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String guidedStoragePageHeader(String DISTRO) {
-    return '選擇要在何處安裝 $DISTRO';
+    return '選擇要在何處安裝 FemboyOS';
   }
 
   @override
@@ -1925,12 +1925,12 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String restartIntoWindowsDescription(String DISTRO) {
-    return '您是否要重啟您的電腦？您之後將要重啟進入 $DISTRO 的安裝程式才能完成安裝 $DISTRO。';
+    return '您是否要重啟您的電腦？您之後將要重啟進入 FemboyOS 的安裝程式才能完成安裝 FemboyOS。';
   }
 
   @override
   String installationSlidesTitle(String RELEASE) {
-    return '歡迎使用 $RELEASE';
+    return '歡迎使用 FemboyOS';
   }
 
   @override
@@ -1944,12 +1944,12 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesWelcomeHeader(String DISTRO) {
-    return '最新版本的 $DISTRO 讓使用電腦成為更加容易的體驗。';
+    return '最新版本的 FemboyOS 讓使用電腦成為更加容易的體驗。';
   }
 
   @override
   String installationSlidesWelcomeBody(String RELEASE) {
-    return '無論您是開發者、創作者、玩家還是管理者，您都能在 $RELEASE 找到新的工具來提高生產力並增強使用體驗。';
+    return '無論您是開發者、創作者、玩家還是管理者，您都能在 FemboyOS 找到新的工具來提高生產力並增強使用體驗。';
   }
 
   @override
@@ -1957,7 +1957,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesSoftwareBody(String DISTRO) {
-    return '在 Ubuntu 軟體中心安裝、管理和更新您的所有應用軟體，包括來自 Snap Store 和 $DISTRO 軟體庫的上千個應用軟體。';
+    return '在 Ubuntu 軟體中心安裝、管理和更新您的所有應用軟體，包括來自 Snap Store 和 FemboyOS 軟體庫的上千個應用軟體。';
   }
 
   @override
@@ -1965,7 +1965,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesDevelopmentBody(String DISTRO) {
-    return '$DISTRO 乃一個理想的工作站，適合研發應用程式、網站、資料科學、人工智慧/機器學習，以及進行 DevOps 和系統管理。每一個 $DISTRO 版本皆包含最新的工具鏈，並支援所有主流的開發環境 (IDE)。';
+    return 'FemboyOS 乃一個理想的工作站，適合研發應用程式、網站、資料科學、人工智慧/機器學習，以及進行 DevOps 和系統管理。每一個 FemboyOS 版本皆包含最新的工具鏈，並支援所有主流的開發環境 (IDE)。';
   }
 
   @override
@@ -1973,7 +1973,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesCreativityBody(String DISTRO) {
-    return '如果您是動畫師、設計師、影片創作者或遊戲開發者，您可以容易的代入您的工作流程到 $DISTRO，其有開源與行業標準的軟體與應用程式支援。';
+    return '如果您是動畫師、設計師、影片創作者或遊戲開發者，您可以容易的代入您的工作流程到 FemboyOS，其有開源與行業標準的軟體與應用程式支援。';
   }
 
   @override
@@ -1981,7 +1981,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesGamingBody(String DISTRO) {
-    return '$DISTRO 為了增進效能與相容性，支援最新的 NVIDIA 與 Mesa 驅動程式。上千個 Windows 遊戲在 $DISTRO 上面無需另外配置，即可透過如 Steam 等的應用程式上遊玩。';
+    return 'FemboyOS 為了增進效能與相容性，支援最新的 NVIDIA 與 Mesa 驅動程式。上千個 Windows 遊戲在 FemboyOS 上面無需另外配置，即可透過如 Steam 等的應用程式上遊玩。';
   }
 
   @override
@@ -1989,12 +1989,12 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesSecurityBody(String DISTRO) {
-    return '$DISTRO 提供保持隱私與安全的所有工具，內建防火牆與 VPN 支援，以及一群以隱私為中心的應用程式來保障您有您資料的絕對掌控權。';
+    return 'FemboyOS 提供保持隱私與安全的所有工具，內建防火牆與 VPN 支援，以及一群以隱私為中心的應用程式來保障您有您資料的絕對掌控權。';
   }
 
   @override
   String installationSlidesSecurityLts(String DISTRO) {
-    return '所有 $DISTRO LTS 版本均提供五年的安全更新，若使用 Ubuntu Pro 訂閱可延長至十年。';
+    return '所有 FemboyOS LTS 版本均提供五年的安全更新，若使用 Ubuntu Pro 訂閱可延長至十年。';
   }
 
   @override
@@ -2002,7 +2002,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesProductivityBody(String DISTRO) {
-    return '$DISTRO 桌面包含 LibreOffice，是與 Microsoft Office 相容，用於文件、試算表與簡報的開源應用程式，另有流行的協作工具可供使用。';
+    return 'FemboyOS 桌面包含 LibreOffice，是與 Microsoft Office 相容，用於文件、試算表與簡報的開源應用程式，另有流行的協作工具可供使用。';
   }
 
   @override
@@ -2010,7 +2010,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesAccessibilityBody(String DISTRO) {
-    return '$DISTRO 的中心思想是每個人都能夠使用電腦，$DISTRO 以先進的親和力工具以及提供變更語言、顏色、文字大小的選項，使得無論何人何地均可以輕鬆使用電腦。';
+    return 'FemboyOS 的中心思想是每個人都能夠使用電腦，FemboyOS 以先進的親和力工具以及提供變更語言、顏色、文字大小的選項，使得無論何人何地均可以輕鬆使用電腦。';
   }
 
   @override
@@ -2024,7 +2024,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String installationSlidesSupportHeader(String DISTRO) {
-    return '$DISTRO 的官方文件可以透過線上或在 Dock 中的「求助」圖示存取。';
+    return 'FemboyOS 的官方文件可以透過線上或在 Dock 中的「求助」圖示存取。';
   }
 
   @override
@@ -2059,12 +2059,12 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String notEnoughDiskSpaceUbuntu(String DISTRO) {
-    return '硬碟可用空間不足，無法安裝 $DISTRO';
+    return '硬碟可用空間不足，無法安裝 FemboyOS';
   }
 
   @override
   String notEnoughDiskSpaceBody(String DISTRO) {
-    return '您選擇的磁碟沒有足夠空間安裝 $DISTRO。結束安裝程式以挪出更多空間或是選擇另一個磁碟進行安裝。';
+    return '您選擇的磁碟沒有足夠空間安裝 FemboyOS。結束安裝程式以挪出更多空間或是選擇另一個磁碟進行安裝。';
   }
 
   @override
@@ -2225,7 +2225,7 @@ class UbuntuBootstrapLocalizationsZhTw extends UbuntuBootstrapLocalizationsZh {
 
   @override
   String recoveryKeyInfoBody(String distro) {
-    return '當您第一次登入 $distro 時，請立即取得還原金鑰，並將它存放在安全的地方。';
+    return '當您第一次登入 FemboyOS 時，請立即取得還原金鑰，並將它存放在安全的地方。';
   }
 
   @override

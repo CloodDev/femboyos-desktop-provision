@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsNb extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Velkommen til $distro';
+    return 'Velkommen til FemboyOS';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsNb extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return 'Hjelp til å forbedre $distro';
+    return 'Hjelp til å forbedre FemboyOS';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return 'Del data anonymt med $distro slik at opplevelsen kan forbedres.';
+    return 'Del data anonymt med FemboyOS slik at opplevelsen kan forbedres.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Ja, del systemdata med $distro-laget';
+    return 'Ja, del systemdata med FemboyOS-laget';
   }
 
   @override

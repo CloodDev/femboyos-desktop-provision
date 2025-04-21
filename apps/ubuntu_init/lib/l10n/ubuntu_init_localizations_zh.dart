@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsZh extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return '欢迎使用 $distro';
+    return '欢迎使用 FemboyOS';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsZh extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return '帮助改善 $distro';
+    return '帮助改善 FemboyOS';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return '通过与我们分享您的系统数据，帮助我们改善 $distro。这包括您的计算机型号、安装的软件与时区选择的位置。';
+    return '通过与我们分享您的系统数据，帮助我们改善 FemboyOS。这包括您的计算机型号、安装的软件与时区选择的位置。';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return '是的，与 $distro 团队分享系统数据';
+    return '是的，与 FemboyOS 团队分享系统数据';
   }
 
   @override
@@ -153,7 +153,7 @@ class UbuntuInitLocalizationsZhTw extends UbuntuInitLocalizationsZh {
 
   @override
   String welcomePageHeader(Object distro) {
-    return '歡迎使用 $distro';
+    return '歡迎使用 FemboyOS';
   }
 
   @override
@@ -187,17 +187,17 @@ class UbuntuInitLocalizationsZhTw extends UbuntuInitLocalizationsZh {
 
   @override
   String telemetryHeader(Object distro) {
-    return '協助我們改善 $distro';
+    return '協助我們改善 FemboyOS';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return '將您的系統資料分享給我們以協助我們改善 $distro 。這包含了像是您的機器型號、已安裝的軟體以及您選擇的時區地理位置資料。';
+    return '將您的系統資料分享給我們以協助我們改善 FemboyOS 。這包含了像是您的機器型號、已安裝的軟體以及您選擇的時區地理位置資料。';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return '是，請將系統資料分享給 $distro 團隊';
+    return '是，請將系統資料分享給 FemboyOS 團隊';
   }
 
   @override

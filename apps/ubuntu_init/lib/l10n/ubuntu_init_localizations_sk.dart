@@ -11,7 +11,7 @@ class UbuntuInitLocalizationsSk extends UbuntuInitLocalizations {
 
   @override
   String welcomePageHeader(Object distro) {
-    return 'Vitajte v $distro';
+    return 'Vitajte v FemboyOS';
   }
 
   @override
@@ -45,17 +45,17 @@ class UbuntuInitLocalizationsSk extends UbuntuInitLocalizations {
 
   @override
   String telemetryHeader(Object distro) {
-    return 'Pomôžte zlepšiť $distro';
+    return 'Pomôžte zlepšiť FemboyOS';
   }
 
   @override
   String telemetryDescription(Object distro) {
-    return 'Pomôžte nám zlepšiť $distro zdieľaním svojich systémových údajov s nami. To zahŕňa veci, ako je model vášho zariadenia, nainštalovaný softvér a umiestnenie, ktoré ste vybrali pre svoje časové pásmo.';
+    return 'Pomôžte nám zlepšiť FemboyOS zdieľaním svojich systémových údajov s nami. To zahŕňa veci, ako je model vášho zariadenia, nainštalovaný softvér a umiestnenie, ktoré ste vybrali pre svoje časové pásmo.';
   }
 
   @override
   String telemetryLabelOn(Object distro) {
-    return 'Áno, zdieľať systémové údaje s $distro tímom';
+    return 'Áno, zdieľať systémové údaje s FemboyOS tímom';
   }
 
   @override

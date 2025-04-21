@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsGa extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'Inrochtaineacht i $DISTRO';
+    return 'Inrochtaineacht i FemboyOS';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'Saincheap $DISTRO le do chuid riachtanas sula gcuireann tú ar bun. Is féidir leat iad a athrú níos déanaí i Socruithe Córais.';
+    return 'Saincheap FemboyOS le do chuid riachtanas sula gcuireann tú ar bun. Is féidir leat iad a athrú níos déanaí i Socruithe Córais.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsGa extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'Fáilte go $DISTRO';
+    return 'Fáilte go FemboyOS';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsGa extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return 'Tá $DISTRO deartha chun comhtháthú gan uaim le Active Directory le haghaidh riarachán níos éasca.';
+    return 'Tá FemboyOS deartha chun comhtháthú gan uaim le Active Directory le haghaidh riarachán níos éasca.';
   }
 
   @override

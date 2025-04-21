@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsId extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'Aksesibilitas dalam $DISTRO';
+    return 'Aksesibilitas dalam FemboyOS';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'Sesuaikan $DISTRO untuk kebutuhan Anda sebelum Anda menyiapkan. Anda dapat mengubahnya nanti dalam Pengaturan Sistem.';
+    return 'Sesuaikan FemboyOS untuk kebutuhan Anda sebelum Anda menyiapkan. Anda dapat mengubahnya nanti dalam Pengaturan Sistem.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsId extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'Selamat datang di $DISTRO';
+    return 'Selamat datang di FemboyOS';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsId extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return '$DISTRO dirancang untuk berintegrasi secara mulus dengan Active Directory untuk administrasi yang lebih mudah.';
+    return 'FemboyOS dirancang untuk berintegrasi secara mulus dengan Active Directory untuk administrasi yang lebih mudah.';
   }
 
   @override

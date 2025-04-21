@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsPt extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'Accessibility in $DISTRO';
+    return 'Accessibility in FemboyOS';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'Customise $DISTRO to your needs before you set up. You can change them later in System Settings.';
+    return 'Customise FemboyOS to your needs before you set up. You can change them later in System Settings.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsPt extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'Bem-vindo ao $DISTRO';
+    return 'Bem-vindo ao FemboyOS';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsPt extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return '$DISTRO is designed to integrate seamlessly with Active Directory for easier administration.';
+    return 'FemboyOS is designed to integrate seamlessly with Active Directory for easier administration.';
   }
 
   @override
@@ -353,12 +353,12 @@ class UbuntuProvisionLocalizationsPtBr extends UbuntuProvisionLocalizationsPt {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return 'Acessibilidade para $DISTRO';
+    return 'Acessibilidade para FemboyOS';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'Personalize $DISTRO para suas necessidades antes de se estabelecer. Você pode mudá-las nas configurações do sistema posteriormente.';
+    return 'Personalize FemboyOS para suas necessidades antes de se estabelecer. Você pode mudá-las nas configurações do sistema posteriormente.';
   }
 
   @override
@@ -473,7 +473,7 @@ class UbuntuProvisionLocalizationsPtBr extends UbuntuProvisionLocalizationsPt {
 
   @override
   String localePageTitle(String DISTRO) {
-    return 'Boas-vindas ao $DISTRO';
+    return 'Boas-vindas ao FemboyOS';
   }
 
   @override
@@ -565,7 +565,7 @@ class UbuntuProvisionLocalizationsPtBr extends UbuntuProvisionLocalizationsPt {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return 'O $DISTRO foi projetado para integrar-se perfeitamente com o Active Directory para facilitar a administração.';
+    return 'O FemboyOS foi projetado para integrar-se perfeitamente com o Active Directory para facilitar a administração.';
   }
 
   @override

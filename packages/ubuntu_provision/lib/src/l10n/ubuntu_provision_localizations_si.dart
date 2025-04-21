@@ -11,12 +11,12 @@ class UbuntuProvisionLocalizationsSi extends UbuntuProvisionLocalizations {
 
   @override
   String accessibilityPageHeader(String DISTRO) {
-    return '$DISTRO ප්‍රවේශ්‍යතාව';
+    return 'FemboyOS ප්‍රවේශ්‍යතාව';
   }
 
   @override
   String accessibilityPageBody(String DISTRO) {
-    return 'පිහිටුවීමට පෙර ඔබගේ අවශ්‍යතා සඳහා $DISTRO අභිරුචිකරණය කරන්න. ඔබට ඒවා පසුව වෙනස් කිරීමට හැකිය.';
+    return 'පිහිටුවීමට පෙර ඔබගේ අවශ්‍යතා සඳහා FemboyOS අභිරුචිකරණය කරන්න. ඔබට ඒවා පසුව වෙනස් කිරීමට හැකිය.';
   }
 
   @override
@@ -131,7 +131,7 @@ class UbuntuProvisionLocalizationsSi extends UbuntuProvisionLocalizations {
 
   @override
   String localePageTitle(String DISTRO) {
-    return '$DISTRO වෙත පිළිගනිමු';
+    return 'FemboyOS වෙත පිළිගනිමු';
   }
 
   @override
@@ -223,7 +223,7 @@ class UbuntuProvisionLocalizationsSi extends UbuntuProvisionLocalizations {
 
   @override
   String activeDirectoryInfo(String DISTRO) {
-    return 'පහසුවෙන් පරිපාලනය සඳහා සක්‍රිය නාමාවලිය සමඟ බාධාවකින් තොරව අනුකලනයට $DISTRO නිර්මාණය කර ඇත.';
+    return 'පහසුවෙන් පරිපාලනය සඳහා සක්‍රිය නාමාවලිය සමඟ බාධාවකින් තොරව අනුකලනයට FemboyOS නිර්මාණය කර ඇත.';
   }
 
   @override

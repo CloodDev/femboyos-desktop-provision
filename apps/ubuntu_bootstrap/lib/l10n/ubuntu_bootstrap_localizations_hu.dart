@@ -11,7 +11,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String windowTitle(String RELEASE) {
-    return 'A(z) $RELEASE telepítése';
+    return 'A(z) FemboyOS telepítése';
   }
 
   @override
@@ -73,7 +73,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String autoinstallHeader(String DISTRO) {
-    return 'Hogyan szeretne telepíteni a(z) $DISTRO disztribúciót?';
+    return 'Hogyan szeretne telepíteni a(z) FemboyOS disztribúciót?';
   }
 
   @override
@@ -105,12 +105,12 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String loadingPageTitle(String DISTRO) {
-    return 'Üdvözli a(z) $DISTRO!';
+    return 'Üdvözli a(z) FemboyOS!';
   }
 
   @override
   String loadingHeader(String DISTRO) {
-    return 'A(z) $DISTRO előkészítése…';
+    return 'A(z) FemboyOS előkészítése…';
   }
 
   @override
@@ -118,12 +118,12 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOrInstallTitle(String DISTRO) {
-    return 'A(z) $DISTRO kipróbálása vagy telepítése';
+    return 'A(z) FemboyOS kipróbálása vagy telepítése';
   }
 
   @override
   String tryOrInstallHeader(String DISTRO) {
-    return 'Mit szeretne tenni a(z) $DISTRO disztribúcióval?';
+    return 'Mit szeretne tenni a(z) FemboyOS disztribúcióval?';
   }
 
   @override
@@ -134,22 +134,22 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String tryOption(String RELEASE) {
-    return 'A(z) $RELEASE kipróbálása';
+    return 'A(z) FemboyOS kipróbálása';
   }
 
   @override
   String tryDescription(String RELEASE) {
-    return 'A(z) $RELEASE kipróbálható anélkül, hogy bármilyen változtatást végezne a számítógépén.';
+    return 'A(z) FemboyOS kipróbálható anélkül, hogy bármilyen változtatást végezne a számítógépén.';
   }
 
   @override
   String installOption(String RELEASE) {
-    return 'A(z) $RELEASE telepítése';
+    return 'A(z) FemboyOS telepítése';
   }
 
   @override
   String installDescription(String RELEASE) {
-    return 'A(z) $RELEASE telepítése a jelenlegi operációs rendszere mellé (vagy helyett). Ez nem fog túl sokáig tartani.';
+    return 'A(z) FemboyOS telepítése a jelenlegi operációs rendszere mellé (vagy helyett). Ez nem fog túl sokáig tartani.';
   }
 
   @override
@@ -224,7 +224,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String codecsAndDriversPageBody(String DISTRO) {
-    return 'A(z) $DISTRO alapértelmezetten tulajdonosi szoftverek nélkül érkezik. További szoftverek telepítése javíthatja a számítógép teljesítményét.';
+    return 'A(z) FemboyOS alapértelmezetten tulajdonosi szoftverek nélkül érkezik. További szoftverek telepítése javíthatja a számítógép teljesítményét.';
   }
 
   @override
@@ -322,7 +322,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeHeader(String DISTRO) {
-    return 'Hogyan szeretne telepíteni a(z) $DISTRO disztribúciót?';
+    return 'Hogyan szeretne telepíteni a(z) FemboyOS disztribúciót?';
   }
 
   @override
@@ -343,7 +343,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeErase(String DISTRO) {
-    return 'Lemez törlése és a(z) $DISTRO telepítése';
+    return 'Lemez törlése és a(z) FemboyOS telepítése';
   }
 
   @override
@@ -405,7 +405,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationTypeTPMInfo(String DISTRO, String url) {
-    return '<a href=\"$url\">Olvasson a TPM-titkosításról</a>, mielőtt ezt a lehetőséget választja. Előfordulhat, hogy nem működik az Ön hardverével vagy a jövőbeli $DISTRO kiadásokkal.';
+    return '<a href=\"$url\">Olvasson a TPM-titkosításról</a>, mielőtt ezt a lehetőséget választja. Előfordulhat, hogy nem működik az Ön hardverével vagy a jövőbeli FemboyOS kiadásokkal.';
   }
 
   @override
@@ -466,7 +466,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String selectGuidedStoragePageTitle(String DISTRO) {
-    return 'Lemez törlése és a(z) $DISTRO telepítése';
+    return 'Lemez törlése és a(z) FemboyOS telepítése';
   }
 
   @override
@@ -486,7 +486,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String guidedStoragePageHeader(String DISTRO) {
-    return 'A(z) $DISTRO telepítési helyének kiválasztása';
+    return 'A(z) FemboyOS telepítési helyének kiválasztása';
   }
 
   @override
@@ -778,12 +778,12 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String restartIntoWindowsDescription(String DISTRO) {
-    return 'Biztosan újra szeretné indítani a számítógépet? Később újra kell majd indítania a(z) $DISTRO telepítését a(z) $DISTRO telepítésének befejezéséhez.';
+    return 'Biztosan újra szeretné indítani a számítógépet? Később újra kell majd indítania a(z) FemboyOS telepítését a(z) FemboyOS telepítésének befejezéséhez.';
   }
 
   @override
   String installationSlidesTitle(String RELEASE) {
-    return 'Üdvözli a(z) $RELEASE!';
+    return 'Üdvözli a(z) FemboyOS!';
   }
 
   @override
@@ -797,12 +797,12 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesWelcomeHeader(String DISTRO) {
-    return 'A(z) $DISTRO legújabb verziója minden eddiginél könnyebbé teszi a számítástechnikát.';
+    return 'A(z) FemboyOS legújabb verziója minden eddiginél könnyebbé teszi a számítástechnikát.';
   }
 
   @override
   String installationSlidesWelcomeBody(String RELEASE) {
-    return 'Legyen akár fejlesztő, alkotó, játékos vagy rendszergazda, a(z) $RELEASE új eszközöket nyújt Önnek a termelékenység és a felhasználói élmény javításához.';
+    return 'Legyen akár fejlesztő, alkotó, játékos vagy rendszergazda, a(z) FemboyOS új eszközöket nyújt Önnek a termelékenység és a felhasználói élmény javításához.';
   }
 
   @override
@@ -810,7 +810,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSoftwareBody(String DISTRO) {
-    return 'Telepítse, kezelje és frissítse az Ubuntu szoftverben található összes alkalmazást, beleértve a Snap alkalmazásboltból és a(z) $DISTRO archívumából származó több ezer alkalmazást is.';
+    return 'Telepítse, kezelje és frissítse az Ubuntu szoftverben található összes alkalmazást, beleértve a Snap alkalmazásboltból és a(z) FemboyOS archívumából származó több ezer alkalmazást is.';
   }
 
   @override
@@ -818,7 +818,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesDevelopmentBody(String DISTRO) {
-    return 'A(z) $DISTRO ideális munkaállomás az alkalmazás- vagy webfejlesztéshez, az adattudományhoz és a mesterséges intelligenciához vagy gépi tanuláshoz, valamint a fejlesztésekhez és az adminisztrációhoz. Minden $DISTRO kiadás a legújabb eszközláncokat tartalmazza, és támogatja az összes főbb integrált fejlesztőkörnyezetet.';
+    return 'A(z) FemboyOS ideális munkaállomás az alkalmazás- vagy webfejlesztéshez, az adattudományhoz és a mesterséges intelligenciához vagy gépi tanuláshoz, valamint a fejlesztésekhez és az adminisztrációhoz. Minden FemboyOS kiadás a legújabb eszközláncokat tartalmazza, és támogatja az összes főbb integrált fejlesztőkörnyezetet.';
   }
 
   @override
@@ -826,7 +826,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesCreativityBody(String DISTRO) {
-    return 'Ha Ön animátor, tervező, videókészítő vagy játékfejlesztő, akkor könnyedén áthozhatja a munkafolyamatait a nyílt forráskódú és az iparági szabványokat használó szoftverek és alkalmazások támogatásával rendelkező $DISTRO rendszerbe.';
+    return 'Ha Ön animátor, tervező, videókészítő vagy játékfejlesztő, akkor könnyedén áthozhatja a munkafolyamatait a nyílt forráskódú és az iparági szabványokat használó szoftverek és alkalmazások támogatásával rendelkező FemboyOS rendszerbe.';
   }
 
   @override
@@ -834,7 +834,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesGamingBody(String DISTRO) {
-    return 'A(z) $DISTRO támogatja a legújabb NVIDIA és Mesa illesztőprogramokat a teljesítmény és a kompatibilitás javítása érdekében. A(z) $DISTRO további beállítások nélkül is remekül futtatja a Windowsra írt játékok ezreit az olyan alkalmazásokon keresztül, mint például a Steam.';
+    return 'A(z) FemboyOS támogatja a legújabb NVIDIA és Mesa illesztőprogramokat a teljesítmény és a kompatibilitás javítása érdekében. A(z) FemboyOS további beállítások nélkül is remekül futtatja a Windowsra írt játékok ezreit az olyan alkalmazásokon keresztül, mint például a Steam.';
   }
 
   @override
@@ -842,12 +842,12 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSecurityBody(String DISTRO) {
-    return 'A(z) $DISTRO minden olyan eszközt biztosít, amelyre szüksége van ahhoz, hogy tiszteletben tartsák a magánéletét és biztonságban legyen az interneten. Beépített tűzfallal és VPN-támogatással, valamint az adatvédelemre összpontosító rengeteg alkalmazással érkezik annak biztosításához, hogy az adatai felett teljes ellenőrzést gyakorolhasson.';
+    return 'A(z) FemboyOS minden olyan eszközt biztosít, amelyre szüksége van ahhoz, hogy tiszteletben tartsák a magánéletét és biztonságban legyen az interneten. Beépített tűzfallal és VPN-támogatással, valamint az adatvédelemre összpontosító rengeteg alkalmazással érkezik annak biztosításához, hogy az adatai felett teljes ellenőrzést gyakorolhasson.';
   }
 
   @override
   String installationSlidesSecurityLts(String DISTRO) {
-    return 'Az összes $DISTRO LTS kiadás öt évre szóló biztonsági javítást tartalmaz, ami Ubuntu Pro előfizetéssel tíz évre növelhető.';
+    return 'Az összes FemboyOS LTS kiadás öt évre szóló biztonsági javítást tartalmaz, ami Ubuntu Pro előfizetéssel tíz évre növelhető.';
   }
 
   @override
@@ -855,7 +855,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesProductivityBody(String DISTRO) {
-    return 'A(z) $DISTRO asztali változatában megtalálható a LibreOffice, a Microsoft Office-szal kompatibilis, nyílt forráskódú alkalmazáscsomag dokumentumokhoz, táblázatokhoz és prezentációkhoz. Népszerű együttműködési eszközök is rendelkezésre állnak.';
+    return 'A(z) FemboyOS asztali változatában megtalálható a LibreOffice, a Microsoft Office-szal kompatibilis, nyílt forráskódú alkalmazáscsomag dokumentumokhoz, táblázatokhoz és prezentációkhoz. Népszerű együttműködési eszközök is rendelkezésre állnak.';
   }
 
   @override
@@ -863,7 +863,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesAccessibilityBody(String DISTRO) {
-    return 'A(z) $DISTRO filozófiájának középpontjában az a meggyőződés áll, hogy a számítástechnika mindenkié. A fejlett akadálymentesítési eszközökkel, valamint a nyelv, a színek és a szövegméret megváltoztatásának lehetőségeivel a(z) $DISTRO egyszerűvé teszi a számítástechnikát – bárki és bárhol is legyen.';
+    return 'A(z) FemboyOS filozófiájának középpontjában az a meggyőződés áll, hogy a számítástechnika mindenkié. A fejlett akadálymentesítési eszközökkel, valamint a nyelv, a színek és a szövegméret megváltoztatásának lehetőségeivel a(z) FemboyOS egyszerűvé teszi a számítástechnikát – bárki és bárhol is legyen.';
   }
 
   @override
@@ -877,7 +877,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String installationSlidesSupportHeader(String DISTRO) {
-    return 'A hivatalos $DISTRO dokumentáció az interneten és az alkalmazásindítóban lévő Súgó ikonon keresztül is elérhető.';
+    return 'A hivatalos FemboyOS dokumentáció az interneten és az alkalmazásindítóban lévő Súgó ikonon keresztül is elérhető.';
   }
 
   @override
@@ -912,12 +912,12 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String notEnoughDiskSpaceUbuntu(String DISTRO) {
-    return 'Nincs elegendő lemezterület a(z) $DISTRO telepítéséhez';
+    return 'Nincs elegendő lemezterület a(z) FemboyOS telepítéséhez';
   }
 
   @override
   String notEnoughDiskSpaceBody(String DISTRO) {
-    return 'A kiválasztott lemezen nincs elegendő lemezterület a(z) $DISTRO telepítéséhez. Lépjen ki a telepítőből, hogy elérhetővé tegye a helyet, vagy válasszon másik lemezt.';
+    return 'A kiválasztott lemezen nincs elegendő lemezterület a(z) FemboyOS telepítéséhez. Lépjen ki a telepítőből, hogy elérhetővé tegye a helyet, vagy válasszon másik lemezt.';
   }
 
   @override
@@ -1078,7 +1078,7 @@ class UbuntuBootstrapLocalizationsHu extends UbuntuBootstrapLocalizations {
 
   @override
   String recoveryKeyInfoBody(String distro) {
-    return 'Szerezzen be egy helyreállítási kulcsot, amint először bejelentkezik a(z) $distro rendszerbe, és tárolja azt biztonságos helyen.';
+    return 'Szerezzen be egy helyreállítási kulcsot, amint először bejelentkezik a(z) FemboyOS rendszerbe, és tárolja azt biztonságos helyen.';
   }
 
   @override
